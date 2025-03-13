@@ -27,7 +27,7 @@ void main() {
     print('2번째: $item');
   });
 
-  print('------------------------');
+  print('-----------------------');
 
   List.generate(list.length, (i){
     final item = list[i];
