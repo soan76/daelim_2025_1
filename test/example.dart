@@ -47,7 +47,7 @@ void main() {
 
 class ClassExample {
   String birth({required int year,required int month, int? day}){
-    return '생년월일은 $year 년 $month 월 $day 입니다';
+    return '생년월일은 $year 년 $month 월 $day 일 입니다';
   }
 
   int age({int birthYear = 2024}){
