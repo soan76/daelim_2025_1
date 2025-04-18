@@ -35,6 +35,7 @@ class _InDeContainerState extends State<InDeContainer> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
+            spacing: 20,
             children: [
               CircleIconButton(
                 onTap: onMinus,
