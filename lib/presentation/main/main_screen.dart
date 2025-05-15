@@ -24,7 +24,7 @@ class _MainScreenState extends State<MainScreen> {
     debugPrint('나이: $_age');
     debugPrint('몸무게: $_weight');
     debugPrint('나이: $_height');
-    debugPrint('나이: $_gender');
+    debugPrint('성별: $_gender');
 
     final chHeight = _height.round() / 100;
 
@@ -99,18 +99,4 @@ class _MainScreenState extends State<MainScreen> {
       ),
     );
   }
-}
-
-Widget _buildMainButton(BuildContext context) {
-  return SizedBox(
-    width: double.infinity,
-    child: ElevatedButton(
-      onPressed: () => context.go(AppRoute.result.toPath),
-      style: ElevatedButton.styleFrom(
-        foregroundColor: Color(0xFFFFFFFF),
-        backgroundColor: Color(0xFF6C63FF),
-      ),
-      child: Text('Calculate BMI'),
-    ),
-  );
 }
